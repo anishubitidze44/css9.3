@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #0E0E0E;
+    
+}
+.navigation {
+    display: flex;
+    width: 1440px;
+    padding: 16px 300px;
+    justify-content: space-between;
+    align-items: center;
+    color: #7B7B7B;
+    font-size: 16px;
+    gap: 24px;
+    
+}
+.movies {
+    color: #FFF;
+}
+.ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 24px;
+}
+.filmbox {
+    display: flex;
+    justify-content: center;
+}
+.arlen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.imgcontainer {
+    display: flex;
+    background-image: url(./image.png);
+    max-width: 840px;
+    width: 100%;
+    height: 471px;
+    padding: 40px;
+    position: relative;
+   
+}
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    
+    
+}
+.batmancontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.move {
+    color: #7B7B7B;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.batman {
+    color: #FFF;
+    font-size: 32px;
+}
+.imdb{
+    display: flex;
+    list-style: none;
+}
+.ulsecond {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.batmanparagraph {
+    display: flex;
+    flex-direction: column;
+    max-width: 355px;
+    width: 100%;
+    gap: 16px;
+    
+}
+.fantasy {
+    color: #FFF;
+    font-size: 16px;
+}
+.superhero {
+    color: #7B7B7B;
+    font-size: 14px;
+}
+.photocontainer {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+button {
+    display: flex;
+    padding: 12px 24px;
+    width: 135px;
+    justify-content: center;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+}
